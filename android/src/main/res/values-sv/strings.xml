@@ -6,4 +6,5 @@
     <string name="restart_button">STARTA OM</string>
     <string name="quit_button">AVSLUTA</string>
     <string name="show_details">VISA DETALJER</string>
+    <string name="hide_details">DÖLJ DETALJER</string>
 </resources>

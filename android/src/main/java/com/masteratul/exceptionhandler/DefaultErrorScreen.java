@@ -40,12 +40,12 @@ public class DefaultErrorScreen extends Activity {
             @Override
             public void onClick(View view) {
                 int stackTraceViewVisibility = stackTraceView.getVisibility();
-                if(stackTraceViewVisibility == View.VISIBLE){
+                if (stackTraceView.getVisibility() == View.VISIBLE) {
                     stackTraceView.setVisibility(View.GONE);
-                    showDetailsButton.setText("SHOW DETAILS");
-                }else{
+                    showDetailsButton.setText(getResources().getString(R.string.show_details));
+                } else {
                     stackTraceView.setVisibility(View.VISIBLE);
-                    showDetailsButton.setText("HIDE DETAILS");
+                    showDetailsButton.setText(getResources().getString(R.string.hide_details));
                 }
             }
         });

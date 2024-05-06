@@ -5,4 +5,5 @@
     <string name="restart_button">RESTART</string>
     <string name="quit_button">QUIT</string>
     <string name="show_details">SHOW DETAILS</string>
+    <string name="hide_details">HIDE DETAILS</string>
 </resources>
