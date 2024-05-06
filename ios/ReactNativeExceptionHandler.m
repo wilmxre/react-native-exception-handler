@@ -51,7 +51,7 @@ void (^defaultNativeErrorCallbackBlock)(NSException *exception, NSString *readea
     UIViewController * rootViewController = app.delegate.window.rootViewController;
     [rootViewController presentViewController:alert animated:YES completion:nil];
     
-    [NSTimer scheduledTimerWithTimeInterval:5.0
+    [NSTimer scheduledTimerWithTimeInterval:10.0
                                      target:[ReactNativeExceptionHandler class]
                                    selector:@selector(releaseExceptionHold)
                                    userInfo:nil
