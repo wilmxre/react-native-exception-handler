@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_title">Ett systemfel har inträffat</string>
+    <string name="error_message1">Loopeli-appen kanske inte fungerar som förväntat längre.</string>
+    <string name="error_message2">Starta om appen för att fortsätta.</string>
+    <string name="restart_button">STARTA OM</string>
+    <string name="quit_button">AVSLUTA</string>
+    <string name="show_details">VISA DETALJER</string>
+</resources>
